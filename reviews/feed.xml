@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title>PellQuest Reviews</title>
+    <link rel="self" href="http://pell.quest/reviews/feed.xml"/>
+    <updated>2026-07-04T12:00:00Z</updated>
+    <author>
+    <name>Pell Meadows</name>
+    <email>pell@pell.quest</email>
+    </author>
+    <id>https://pell.quest/</id>
+    <icon>https://pell.quest/images/SmallPell.png</icon>
+
+    <entry>
+        <title>Chaos;Child Review</title>
+        <id>https://pell.quest/reviews/chaoschild</id>
+        <updated>2026-05-23T12:00:00Z</updated>
+        <summary>Those eyes are God's Eyes? and other insane questions you shouldn't ask.</summary>
+        <link rel="alternate" href="https://pell.quest/reviews/chaoschild"/>
+    </entry>
+
+    <entry>
+        <title>Cassette Beasts Review</title>
+        <id>https://pell.quest/reviews/cassettebeasts</id>
+        <updated>2026-05-25T12:00:00Z</updated>
+        <summary>Catching 'em all, but with Really Good Tunes.</summary>
+        <link rel="alternate" href="https://pell.quest/reviews/cassettebeasts"/>
+    </entry>
+
+    <entry>
+        <title>Demonschool Review</title>
+        <id>https://pell.quest/reviews/demonschool</id>
+        <updated>2026-05-27T12:00:00Z</updated>
+        <summary>Head-kicking Mutual Aid and the Power of Community. And demons.</summary>
+        <link rel="alternate" href="https://pell.quest/reviews/demonschool"/>
+    </entry>
+
+    <entry>
+        <title>Robotics;Notes ELITE Review</title>
+        <id>https://pell.quest/reviews/roboticsnotes</id>
+        <updated>2026-06-02T12:00:00Z</updated>
+        <summary>I am the master of my fate, I am the captain of my soul.</summary>
+        <link rel="alternate" href="https://pell.quest/reviews/roboticsnotes"/>
+    </entry>
+
+    <entry>
+        <title>Summer Showcase Demos 2026</title>
+        <id>https://pell.quest/reviews/summerdemos2026</id>
+        <updated>2026-06-11T12:00:00Z</updated>
+        <summary>30 (!!!) Demos from the Summer Showcase!</summary>
+        <link rel="alternate" href="https://pell.quest/reviews/summerdemos2026"/>
+    </entry>
+
+    <entry>
+        <title>Steam NextFest Demos (2026)</title>
+        <id>https://pell.quest/reviews/nextfestdemos2026</id>
+        <updated>2026-06-23T12:00:00Z</updated>
+        <summary>17 Demos from the Steam NextFest!</summary>
+        <link rel="alternate" href="https://pell.quest/reviews/nextfestdemos2026"/>
+    </entry>
+
+    <entry>
+        <title>Slay the Princess Review</title>
+        <id>https://pell.quest/reviews/slaytheprincess</id>
+        <updated>2026-06-26T12:00:00Z</updated>
+        <summary>There are no endings, only new beginnings. Remember, this is a love story.</summary>
+        <link rel="alternate" href="https://pell.quest/reviews/slaytheprincess"/>
+    </entry>
+
+    <entry>
+        <title>Z.A.T.O. I Love the World and Everything In It Review</title>
+        <id>https://pell.quest/reviews/zato</id>
+        <updated>2026-07-04T12:00:00Z</updated>
+        <summary>There is no knife. There is no cut. Everything corrects itself, in the end.</summary>
+        <link rel="alternate" href="https://pell.quest/reviews/zato"/>
+    </entry>
+
+    <!-- <entry>
+        <title>{{title}}</title>
+        <id>https://pell.quest/reviews/</id>
+        <updated>2026-07-04T12:00:00Z</updated>
+        <summary>Some text.</summary>
+        <link rel="alternate" href="https://pell.quest/reviews/"/>
+    </entry> -->
+
+</feed>
