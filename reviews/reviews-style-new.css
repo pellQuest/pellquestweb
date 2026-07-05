@@ -1,0 +1,126 @@
+body {
+    background-image:url(../bgs/PellHolo.png);
+    background-repeat:repeat;
+}
+
+#site-title {
+    font-family:"Lexend", Verdana, Tahoma, sans-serif;
+    font-weight:700;
+    font-size:2rem;
+    margin:0 0 6px 0;
+    margin-top:30px;
+    margin-left:50px;
+    color:mintcream;
+    text-shadow:0 2px 6px rgba(0,0,0,0.55);
+}
+
+#site-subtitle {
+    color:#e6f7f0;
+    font-family:"Lexend", Verdana, Tahoma, sans-serif;
+    font-weight:700;
+    margin:0 0 18px 0;
+    margin-left:50px;
+    text-shadow:0 2px 6px rgba(0,0,0,0.55);
+}
+
+#blog-content {
+    background:#1b1b1b;
+    background-image:url(../bgs/3px-tile.png);
+    background-repeat:repeat;
+    border:4px groove;
+    border-radius:10px;
+    padding:30px;
+    text-align:left;
+    font-family:"Roboto", sans-serif;
+    color:mintcream;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+    opacity:1;
+    transition:opacity 0.4s ease;
+}
+
+#blog-content a:visited,
+#blog-content a:link {
+    color:mintcream;
+}
+
+#blog-content.fade-out {
+    opacity:0;
+}
+
+#blog-nav {
+    text-align:left;
+    margin-top:12px;
+}
+
+#blog-nav .nav-link {
+    margin-right:8px;
+    display:inline-block;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.nav-link {
+    border-radius:5px;
+    background-color:mintcream;
+    color:black;
+    font-family:"Courier", sans-serif;
+}
+
+.greyedout {
+    opacity:0.5;
+    pointer-events:none;
+}
+
+.reviews-wrapper {
+    display:flex;
+    gap:24px;
+    align-items:flex-start;
+    padding:30px 260px 60px 50px;
+}
+
+.review-title {
+    font-size:150%;
+}
+
+#corner-image {
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    z-index:9999;
+    display:block;
+    width:220px;
+    height:auto;
+    animation:wiggle 4s ease-in-out infinite;
+    cursor:pointer;
+    pointer-events:auto;
+}
+
+@keyframes wiggle {
+    0% {transform:rotate(0deg);}
+    25% {transform:rotate(-5deg);}
+    75% {transform:rotate(5deg);}
+    100% {transform:rotate(0deg);}
+}
+
+.site-top,
+.site-top a:visited,
+.site-top a:link {
+    text-align:center;
+    margin:28px 12px 6px 12px;
+    color:mintcream;
+    text-decoration:none;
+}
+
+@media (max-width:720px) {
+    .reviews-wrapper {flex-direction:column; padding:16px; padding-right:16px;}
+    .navbar {position:relative; width:100%; top:0; margin-bottom:12px;}
+    #corner-image {width:140px; right:12px; bottom:12px;}
+}
+
+@media (max-width:420px) {
+    #corner-image {display:none;}
+}
+
+@media (min-width:1000px) {
+    #site-title {font-size:2.4rem;}
+}
